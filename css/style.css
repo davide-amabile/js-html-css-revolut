@@ -4,6 +4,10 @@
   padding:0;
 }
 
+.hide {
+  display: none;
+}
+
 .d_flex {
   display: flex;
 }
@@ -37,6 +41,7 @@
 .link_menu {
   width: 80%;
   height: 80px;
+  position: relative;
 }
 
 .link_menu ul li {
@@ -68,3 +73,12 @@
   text-decoration: none;
 }
 /* /bottone */
+/* menu link a scomparsa */
+.menu_transp {
+  display: block;
+  position: absolute;
+}
+
+.menu_transp ul li {
+  display: block;
+}
