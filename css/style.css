@@ -75,10 +75,15 @@
 /* /bottone */
 /* menu link a scomparsa */
 .menu_transp {
-  display: block;
+  /* display: block; */
   position: absolute;
 }
 
 .menu_transp ul li {
-  display: block;
+  /* display: block; */
+}
+
+
+.hide {
+  display: none;
 }
